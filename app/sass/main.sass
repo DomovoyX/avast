@@ -1,0 +1,582 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+@import app/libs/Magnific-Popup/magnific-popup.sass
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: $main
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	input, textarea
+			border: #666 1px solid
+			outline: none
+			&:focus:required:invalid
+				border-color: #ce0000
+			&:required:valid
+				border-color: #2ecc2e
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+h1, h2, h3, h4, h5, h6
+	font-weight: normal
+	font-family: sans-serif
+	margin: 0
+
+h1
+	font-size: 56px
+
+h2
+	font-size: 36px
+
+h3
+	font-size: 24px
+	text-transform: uppercase
+
+h4
+	font-size: 16px
+
+h5
+	font-size: 14px
+
+a
+	font-size: 14px
+	+mt(.5s)
+	&:hover
+		color: $main
+		text-decoration: none
+p
+	margin: 0px
+	padding: 0px
+	font-size: 14px
+	font-family: OpenSans
+
+span
+	color: $accent
+
+/*header*/
+.main-head
+	background: #dedede
+	background: url(../img/bg.jpg) no-repeat
+	background-position: top center
+	background-size: cover
+	min-height: 100vh
+
+.head-info
+	background: $white
+	width: 100%
+	position: fixed
+	z-index: 999
+	border-bottom: 1px solid #bbb
+	.row
+		margin: 0
+
+.logo
+	text-align: center
+	padding: 10px 0
+	img
+		width: 40%
+
+nav
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+	li
+		display: inline-block
+
+.menu
+	background: $white
+
+.main-mnu
+	text-align: center
+	text-transform: uppercase
+	> ul
+		padding: 0
+		> li
+			margin: 0 -3px
+			> a
+				font-size: 20px
+				display: block
+				padding: 0 18px
+				color: $main
+				text-decoration: none
+				+mt(.5s)
+				&:hover
+					color: $accent
+			&.active
+				a
+					color: $accent
+
+.mnu-mobile 
+		padding: 0
+
+.main-mnu-mobile
+	display: none
+	text-align: center
+	text-transform: uppercase
+	background: $main
+	font-weight: 600
+	> ul 
+		padding: 10px 0
+		> li 
+			display: block
+			&.active
+				a
+					color: $white
+					background: $accent
+			> a
+				font-size: 18px
+				padding: 5px 18px
+				display: block
+				color: $white
+
+.toggle-mnu
+	display: none
+	position: absolute
+	right: 50px
+	top: 25px
+	width: 32px
+	height: 36px
+
+	span:after, span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 9px
+
+	span:after
+		top: 18px
+
+	span 
+		position: relative
+		display: block
+
+	span, span:after, span:before
+		width: 100%
+		height: 2px
+		background-color: $main
+		transition: all 0.3s
+		backface-visibility: hidden
+		border-radius: 2px
+
+	&.on span 
+		background-color: transparent
+
+	&.on span:before 
+		transform: rotate(45deg) translate(-1px, 0px)
+
+	&.on span:after 
+		transform: rotate(-45deg) translate(6px, -7px)
+
+.social-wrap
+	text-align: center
+	padding: 21px 0
+	i
+		font-size: 25px
+		margin-right: 9px
+		color: $main
+		+mt(.5s)
+	.fa-vk,.fa-facebook-official,.fa-twitter,.fa-google-plus-official,.fa-odnoklassniki
+		&:hover
+			color: $accent
+
+.social-wrap-repost
+	text-align: center
+	padding: 5px 0
+	border: 1px solid $white
+	width: 300px
+	display: block
+	margin: 10% auto 5%
+	p
+		color: $white
+		font-size: 12px
+	i
+		font-size: 25px
+		margin-right: 9px
+		color: $white
+		+mt(.5s)
+	.fa-vk,.fa-facebook-official,.fa-twitter,.fa-google-plus-official,.fa-odnoklassniki
+		&:hover
+			color: $accent
+
+.fa
+	font-size: 20px
+
+.avast
+	color: $white
+	text-align: center
+	padding: 15% 10px 10px
+	p
+		font-size: 24px
+		padding: 40px 0
+	span
+		color: $white
+		display: block
+		margin-top: 2%
+		a
+			color: $white
+			&:hover
+				color: $accent
+			i
+				margin-right: 10px
+
+.btn
+	display: block
+	text-align: center
+	width: 300px
+	margin: 20px auto 0
+	font-size: 20px
+	padding: 5px 0
+	border-radius: 3px
+	color: $white
+	border: 2px solid $accent
+	color: $accent
+	+mt(.5s)
+	&:hover
+		background: $accent
+		color: $white
+	i
+		padding-right: 15px	
+/*header end*/
+
+
+.btn-small-services,.btn-small-news,.btn-small-info
+	display: block
+	width: 100%
+	font-size: 14px
+	padding: 5px 0
+	border-radius: 3px
+
+/*content*/
+.indicators,.services,.info-trade,.news,.information,.contact
+	text-align: center
+	/*section indicators*/
+.indicators
+	background: $main
+	padding: 55px 0 10px
+	color: $accent
+
+.indicators-block
+	font-size: 15px
+	font-family: "OpenSans", sans-serif
+	color: #c0cdda
+	line-height: 21px
+	margin-bottom: 40px
+	h3
+		margin: 0
+		font-size: 20px
+		color: #dde9f3
+		font-family: "OpenSans", sans-serif
+		span
+			font-size: 20px
+			color: $accent
+	p
+		margin-top: 12px 0 0
+
+	/*section indicators end*/
+
+	/*section services*/
+.services,.news,.information,.contact
+	padding: 50px 0
+	min-height: 80vh
+	background: $white
+
+.services-block
+	margin-top: 80px
+	text-align: center
+	svg, img
+		width: 75px
+		height: auto
+	path
+		fill: #555!important
+		+mt(.5s)
+	&:hover
+		path
+			fill: $accent!important
+		h3
+			&::before
+				background-color: $accent
+				width: 30%
+				margin-left: -15%
+	h3
+		margin-top: 30px
+		padding-bottom: 15px
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			bottom: 0
+			height: 1px
+			width: 15%
+			left: 50%
+			margin-left: -7.5%
+			background-color: #d0d0d0
+			+mt(.5s)
+	p
+		font-size: 14px
+		color: #666	
+		padding: 0 10px
+		margin: 25px 0
+		margin-bottom: 80px
+
+.btn-small-services
+	color: $accent
+	background: $main
+	+mt(.5s)
+	&:hover
+		background: $accent
+		color: $main
+
+#small-dialog,#small-dialog-2,#small-dialog-3
+	background: white
+	padding: 20px 30px
+	text-align: left
+	max-width: 50%
+	min-height: 250px
+	margin: 40px auto
+	position: relative
+	h3
+		text-align: center
+	a
+		margin-top: 40px
+
+.services-info-content
+	.row
+		margin-top: 20px
+		padding: 10px 0
+	img
+		margin: 0 25%
+		width: 50%
+	h4
+		font-size: 20px
+	p
+		padding: 0
+		font-size: 13px
+		text-align: justify
+
+.my-mfp-slide-bottom
+	.zoom-anim-dialog
+		opacity: 0
+		-webkit-transition: all 0.2s ease-out
+		-moz-transition: all 0.2s ease-out
+		-o-transition: all 0.2s ease-out
+		transition: all 0.2s ease-out
+		-webkit-transform: translateY(-20px) perspective(600px) rotateX(10deg)
+		-moz-transform: translateY(-20px) perspective(600px) rotateX(10deg)
+		-ms-transform: translateY(-20px) perspective(600px) rotateX(10deg)
+		-o-transform: translateY(-20px) perspective(600px) rotateX(10deg)
+		transform: translateY(-20px) perspective(600px) rotateX(10deg)
+	&.mfp-ready .zoom-anim-dialog
+		opacity: 1
+		-webkit-transform: translateY(0) perspective(600px) rotateX(0)
+		-moz-transform: translateY(0) perspective(600px) rotateX(0)
+		-ms-transform: translateY(0) perspective(600px) rotateX(0)
+		-o-transform: translateY(0) perspective(600px) rotateX(0)
+		transform: translateY(0) perspective(600px) rotateX(0)
+	&.mfp-removing .zoom-anim-dialog
+		opacity: 0
+		-webkit-transform: translateY(-10px) perspective(600px) rotateX(10deg)
+		-moz-transform: translateY(-10px) perspective(600px) rotateX(10deg)
+		-ms-transform: translateY(-10px) perspective(600px) rotateX(10deg)
+		-o-transform: translateY(-10px) perspective(600px) rotateX(10deg)
+		transform: translateY(-10px) perspective(600px) rotateX(10deg)
+	&.mfp-bg
+		opacity: 0
+		-webkit-transition: opacity 0.3s ease-out
+		-moz-transition: opacity 0.3s ease-out
+		-o-transition: opacity 0.3s ease-out
+		transition: opacity 0.3s ease-out
+	&.mfp-ready.mfp-bg
+		opacity: 0.8
+	&.mfp-removing.mfp-bg
+		opacity: 0
+
+	/*section services end*/
+	
+	/*section info-trade*/
+.info-trade
+	background: $main
+	padding: 20px
+	h2
+		color: $white
+
+.trade-block
+	padding: 10px 0
+
+	/*section info-trade end*/
+	
+	/*information*/
+.information
+	background: #cecece
+	p
+		font-size: 16px
+.info-block
+	margin-top: 80px
+	text-align: center
+	img
+		width: 100%
+		height: auto
+		padding: 25% 0
+	ul
+		list-style-type: none
+		padding: 15px 0
+		li
+			text-align: left
+			padding: 10px 0
+			i
+				padding-right: 10px
+				color: $grey
+			ul
+				margin: 0
+				margin-left: 22px
+				margin-top: 5px
+				padding: 0
+				li
+					margin: 0
+					padding: 0
+					font-size: 14px
+					text-align: justify 
+			span
+				color: $main
+
+
+	/*information end*/
+	
+	/*news*/
+.sys-req
+	padding: 80px 0
+	svg, img
+		width: 75px
+		height: auto
+	path
+		fill: #555!important
+		+mt(.5s)
+	&:hover
+		path
+			fill: $accent!important
+		h3
+			&::before
+				background-color: $accent
+				width: 30%
+				margin-left: -15%
+	h3
+		margin-top: 30px
+		padding-bottom: 15px
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			bottom: 0
+			height: 1px
+			width: 15%
+			left: 50%
+			margin-left: -7.5%
+			background-color: #d0d0d0
+			+mt(.5s)
+	p
+		font-size: 24px
+		color: #666	
+		margin: 25px 0
+	/*news end*/
+
+.info-trade-2
+	text-align: center
+	background: $main
+	padding: 20px
+	h3
+		color: $white
+	
+	/*contact*/
+.comment
+	background: #e6e6e6
+	text-align: center
+
+	/*contact end*/
+
+	/*content end*/
+	
+
+/*footer*/
+footer
+	background: $main
+	padding: 25px 0
+	h3
+		text-transform: uppercase
+		color: $white
+		border-bottom: 1px solid $grey
+		text-align: center
+	ul
+		list-style-type: none
+		padding: 0
+		padding-top: 25px
+		padding-bottom: 45px
+		margin: 0
+		li
+			a
+				text-transform: uppercase
+				font-size: 17px
+				color: $grey
+
+.vk-block
+	text-align: center
+			
+.mnu-services
+	li
+		a
+			&:hover
+				color: $white
+.mnu-information
+	li
+		a
+			&:hover
+				color: $white
+
+.footer-social-wrap
+	text-align: center
+	padding: 21px 0
+	i
+		font-size: 25px
+		margin-right: 9px
+		color: $grey
+		+mt(.5s)
+	.fa-vk,.fa-facebook-official,.fa-twitter,.fa-google-plus-official,.fa-odnoklassniki
+		&:hover
+			color: $accent
+
+.copyrith
+	border-top: 1px solid $grey
+	margin-top: 10px
+	padding: 10px 0
+	text-align: center
+	color: $white
+	width: 100%
+
+.author
+	a
+		color: $white
+		&:hover
+			color: $accent
+/*footer end*/
+
+@import "media" // Always at the end
+//@import "app/libs/animate/animate.sass"
+@import "app/libs/font-awesome/css/font-awesome.sass"

@@ -1,0 +1,331 @@
+<section class="raid">
+			<div class="row">
+				<div class="col-sm-4">
+
+					<div class="raid-item">
+
+						<section>
+							<h2>1 состав</h2>
+							<div class="row">
+								<div class="col-8">
+									<div class="info-group">
+										<p>РТ на освоении: 5/7 (пн,вт,ср,чт,пт).</p>
+										<p>РТ на фарме: 2-3/7.</p>
+										<p>Время рейдинга: 20:00 - 24:00.</p>
+										<p>Рейдовая добыча: консул лут.</p>
+										<h3>Рейд лидер</h3>
+										<p>Ник: Мэйдэй</p>
+										<p>Battle-net: <a href="#"><span>Mayday</span>#2390</a></p>
+										<h3>Офицеры</h3>
+										<p>Ник: Импульс</p>
+										<p>Battle-net: <a href="#"><span>Impulse</span>#2312</a></p>
+									</div>
+								</div>
+								<div class="col-1">
+									<ul class="heroes class">
+										<li><img src="img/heroes-class/class-warrior.png" alt=""></li>
+										<li><img src="img/heroes-class/class-paladin.png" alt=""></li>
+										<li><img src="img/heroes-class/class-hunter.png" alt=""></li>
+										<li><img src="img/heroes-class/class-rogue.png" alt=""></li>
+										<li><img src="img/heroes-class/class-priest.png" alt=""></li>
+										<li><img src="img/heroes-class/class-death-knight.png" alt=""></li>
+										<li><img src="img/heroes-class/class-shaman.png" alt=""></li>
+										<li><img src="img/heroes-class/class-mage.png" alt=""></li>
+										<li><img src="img/heroes-class/class-warlock.png" alt=""></li>
+										<li><img src="img/heroes-class/class-monk.png" alt=""></li>
+										<li><img src="img/heroes-class/class-druid.png" alt=""></li>
+										<li><img src="img/heroes-class/class-demon-hunter.png" alt=""></li>
+									</ul>
+								</div>
+								<div class="col-3">
+
+									<ul class="heroes spec">
+										<li>
+											<img src="img/heroes-spec/war/warrior_savageblow.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_innerrage.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_defensivestance.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/pal/holy.jpg" alt="">
+											<img src="img/heroes-spec/pal/shieldofthetemplar.jpg" alt="">
+											<img src="img/heroes-spec/pal/auraoflight.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/hunt/bestialdiscipline.jpg" alt="">
+											<img src="img/heroes-spec/hunt/focusedaim.jpg" alt="">
+											<img src="img/heroes-spec/hunt/camouflage.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/rogue/deadlybrew.jpg" alt="">
+											<img src="img/heroes-spec/rogue/sword.jpg" alt="">
+											<img src="img/heroes-spec/rogue/stealth.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/prist/powerwordshield.jpg" alt="">
+											<img src="img/heroes-spec/prist/guardianspirit.jpg" alt="">
+											<img src="img/heroes-spec/prist/shadowwordpain.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dk/bloodpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/frostpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/unholypresence.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/shaman/lightning.jpg" alt="">
+											<img src="img/heroes-spec/shaman/improvedstormstrike.jpg" alt="">
+											<img src="img/heroes-spec/shaman/magicimmunity.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/mage/magicalsentry.jpg" alt="">
+											<img src="img/heroes-spec/mage/fire.jpg" alt="">
+											<img src="img/heroes-spec/mage/frost.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/warlock/deathcoil.jpg" alt="">
+											<img src="img/heroes-spec/warlock/metamorphosis.jpg" alt="">
+											<img src="img/heroes-spec/warlock/rainoffire.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/monk/brewmaster.jpg" alt="">
+											<img src="img/heroes-spec/monk/windwalker.jpg" alt="">
+											<img src="img/heroes-spec/monk/mistweaver.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/druid/starfall.jpg" alt="">
+											<img src="img/heroes-spec/druid/bearform.jpg" alt="">
+											<img src="img/heroes-spec/druid/catform.jpg" alt="">
+											<img src="img/heroes-spec/druid/healingtouch.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dhunt/specdps.jpg" alt="">
+											<img src="img/heroes-spec/dhunt/spectank.jpg" alt="">
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+
+					</div>
+
+				</div>
+				<div class="col-sm-4">
+
+					<div class="raid-item">
+
+						<section>
+							<h2>2 состав</h2>
+							<div class="row">
+								<div class="col-8">
+									<div class="info-group">
+										<p>РТ на освоении: 3/7 (пн,вт,ср).</p>
+										<p>РТ на фарме: 1 день.</p>
+										<p>Время рейдинга: 19:45 - 23:00.</p>
+										<p>Рейдовая добыча: консул лут.</p>
+										<h3>Рейд лидер</h3>
+										<p>Ник: Халупец</p>
+										<p>Battle-net: <a href="#"><span>Xalupec</span>#2582</a></p>
+										<h3>Офицеры</h3>
+										<p>Ник: Анратир</p>
+										<p>Battle-net: <a href="#"><span>Singleton</span>#2408</a></p>
+									</div>
+								</div>
+								<div class="col-1">
+									<ul class="heroes class">
+										<li><img src="img/heroes-class/class-warrior.png" alt=""></li>
+										<li><img src="img/heroes-class/class-paladin.png" alt=""></li>
+										<li><img src="img/heroes-class/class-hunter.png" alt=""></li>
+										<li><img src="img/heroes-class/class-rogue.png" alt=""></li>
+										<li><img src="img/heroes-class/class-priest.png" alt=""></li>
+										<li><img src="img/heroes-class/class-death-knight.png" alt=""></li>
+										<li><img src="img/heroes-class/class-shaman.png" alt=""></li>
+										<li><img src="img/heroes-class/class-mage.png" alt=""></li>
+										<li><img src="img/heroes-class/class-warlock.png" alt=""></li>
+										<li><img src="img/heroes-class/class-monk.png" alt=""></li>
+										<li><img src="img/heroes-class/class-druid.png" alt=""></li>
+										<li><img src="img/heroes-class/class-demon-hunter.png" alt=""></li>
+									</ul>
+								</div>
+								<div class="col-3">
+
+									<ul class="heroes spec">
+										<li>
+											<img src="img/heroes-spec/war/warrior_savageblow.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_innerrage.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_defensivestance.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/pal/holy.jpg" alt="">
+											<img src="img/heroes-spec/pal/shieldofthetemplar.jpg" alt="">
+											<img src="img/heroes-spec/pal/auraoflight.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/hunt/bestialdiscipline.jpg" alt="">
+											<img src="img/heroes-spec/hunt/focusedaim.jpg" alt="">
+											<img src="img/heroes-spec/hunt/camouflage.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/rogue/deadlybrew.jpg" alt="">
+											<img src="img/heroes-spec/rogue/sword.jpg" alt="">
+											<img src="img/heroes-spec/rogue/stealth.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/prist/powerwordshield.jpg" alt="">
+											<img src="img/heroes-spec/prist/guardianspirit.jpg" alt="">
+											<img src="img/heroes-spec/prist/shadowwordpain.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dk/bloodpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/frostpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/unholypresence.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/shaman/lightning.jpg" alt="">
+											<img src="img/heroes-spec/shaman/improvedstormstrike.jpg" alt="">
+											<img src="img/heroes-spec/shaman/magicimmunity.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/mage/magicalsentry.jpg" alt="">
+											<img src="img/heroes-spec/mage/fire.jpg" alt="">
+											<img src="img/heroes-spec/mage/frost.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/warlock/deathcoil.jpg" alt="">
+											<img src="img/heroes-spec/warlock/metamorphosis.jpg" alt="">
+											<img src="img/heroes-spec/warlock/rainoffire.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/monk/brewmaster.jpg" alt="">
+											<img src="img/heroes-spec/monk/windwalker.jpg" alt="">
+											<img src="img/heroes-spec/monk/mistweaver.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/druid/starfall.jpg" alt="">
+											<img src="img/heroes-spec/druid/bearform.jpg" alt="">
+											<img src="img/heroes-spec/druid/catform.jpg" alt="">
+											<img src="img/heroes-spec/druid/healingtouch.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dhunt/specdps.jpg" alt="">
+											<img src="img/heroes-spec/dhunt/spectank.jpg" alt="">
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+
+					</div>
+
+				</div>
+				<div class="col-sm-4">
+
+					<div class="raid-item">
+
+						<section>
+							<h2>3 состав</h2>
+							<div class="row">
+								<div class="col-8">
+									<div class="info-group">
+										<p>РТ на освоении: 3/7 (пн,ср,чт).</p>
+										<p>РТ на фарме: 1 день.</p>
+										<p>Время рейдинга: 20:45 - 24:00.</p>
+										<p>Рейдовая добыча: консул лут.</p>
+										<h3>Рейд лидер</h3>
+										<p>Ник: Садовничег</p>
+										<p>Battle-net: <a href="#"><span>CrazyDoge</span>#2456</a></p>
+										<h3>Офицеры</h3>
+										<p>Ник: Марехан</p>
+										<p>Battle-net: <a href="#"><span>Domovoy</span>#21415</a></p>
+									</div>
+								</div>
+								<div class="col-1">
+									<ul class="heroes class">
+										<li><img src="img/heroes-class/class-warrior.png" alt=""></li>
+										<li><img src="img/heroes-class/class-paladin.png" alt=""></li>
+										<li><img src="img/heroes-class/class-hunter.png" alt=""></li>
+										<li><img src="img/heroes-class/class-rogue.png" alt=""></li>
+										<li><img src="img/heroes-class/class-priest.png" alt=""></li>
+										<li><img src="img/heroes-class/class-death-knight.png" alt=""></li>
+										<li><img src="img/heroes-class/class-shaman.png" alt=""></li>
+										<li><img src="img/heroes-class/class-mage.png" alt=""></li>
+										<li><img src="img/heroes-class/class-warlock.png" alt=""></li>
+										<li><img src="img/heroes-class/class-monk.png" alt=""></li>
+										<li><img src="img/heroes-class/class-druid.png" alt=""></li>
+										<li><img src="img/heroes-class/class-demon-hunter.png" alt=""></li>
+									</ul>
+								</div>
+								<div class="col-3">
+
+									<ul class="heroes spec">
+										<li>
+											<img src="img/heroes-spec/war/warrior_savageblow.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_innerrage.jpg" alt="">
+											<img src="img/heroes-spec/war/warrior_defensivestance.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/pal/holy.jpg" alt="">
+											<img src="img/heroes-spec/pal/shieldofthetemplar.jpg" alt="">
+											<img src="img/heroes-spec/pal/auraoflight.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/hunt/bestialdiscipline.jpg" alt="">
+											<img src="img/heroes-spec/hunt/focusedaim.jpg" alt="">
+											<img src="img/heroes-spec/hunt/camouflage.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/rogue/deadlybrew.jpg" alt="">
+											<img src="img/heroes-spec/rogue/sword.jpg" alt="">
+											<img src="img/heroes-spec/rogue/stealth.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/prist/powerwordshield.jpg" alt="">
+											<img src="img/heroes-spec/prist/guardianspirit.jpg" alt="">
+											<img src="img/heroes-spec/prist/shadowwordpain.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dk/bloodpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/frostpresence.jpg" alt="">
+											<img src="img/heroes-spec/dk/unholypresence.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/shaman/lightning.jpg" alt="">
+											<img src="img/heroes-spec/shaman/improvedstormstrike.jpg" alt="">
+											<img src="img/heroes-spec/shaman/magicimmunity.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/mage/magicalsentry.jpg" alt="">
+											<img src="img/heroes-spec/mage/fire.jpg" alt="">
+											<img src="img/heroes-spec/mage/frost.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/warlock/deathcoil.jpg" alt="">
+											<img src="img/heroes-spec/warlock/metamorphosis.jpg" alt="">
+											<img src="img/heroes-spec/warlock/rainoffire.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/monk/brewmaster.jpg" alt="">
+											<img src="img/heroes-spec/monk/windwalker.jpg" alt="">
+											<img src="img/heroes-spec/monk/mistweaver.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/druid/starfall.jpg" alt="">
+											<img src="img/heroes-spec/druid/bearform.jpg" alt="">
+											<img src="img/heroes-spec/druid/catform.jpg" alt="">
+											<img src="img/heroes-spec/druid/healingtouch.jpg" alt="">
+										</li>
+										<li>
+											<img src="img/heroes-spec/dhunt/specdps.jpg" alt="">
+											<img src="img/heroes-spec/dhunt/spectank.jpg" alt="">
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+
+					</div>
+
+				</div>
+			</div>
+		</section>

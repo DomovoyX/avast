@@ -1,0 +1,80 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
++media-breakpoint-down(xl)
++media-breakpoint-down(lg)
++media-breakpoint-down(md)
++media-breakpoint-down(sm)
+
+@media (min-width: 1600px){}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) and (max-width: 1599.98px){.main-mnu
+	> ul
+		> li
+			> a
+				font-size: 16px
+				padding: 0 10px}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px){
+.logo
+	img
+		width: 70%
+.main-mnu
+	> ul
+		> li
+			> a
+				font-size: 16px
+				padding: 0 8px}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px){
+.logo
+	img
+		width: 20%
+.main-mnu
+	display: none
+.toggle-mnu
+	display: block
+.avast
+	margin-top: 100px
+.info-block 
+	img
+		padding: 5% 0
+.btn-small-services
+	font-size: 16px}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px){
+.main-mnu
+	display: none
+.toggle-mnu
+	display: block
+.avast
+	margin-top: 100px
+.btn
+	font-size: 26px
+	width: 320px
+.btn-small-services
+	display: none}
+
+// Экстрамалые девайсы («портретные телефоны», < 576px)
+@media (max-width: 575.98px) {
+.main-mnu
+	display: none
+.toggle-mnu
+	display: block
+.avast
+	margin-top: 100px
+.btn
+	font-size: 26px
+	width: 320px
+.btn-small-services
+	display: none}
+
+
+
+
